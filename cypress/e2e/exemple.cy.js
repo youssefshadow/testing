@@ -1,5 +1,5 @@
 describe("template spec", () => {
-  it("performs calculation", () => {
+  it("Calcul", () => {
     cy.visit("http://localhost/testing/");
 
     cy.get("#number1").type("5");
